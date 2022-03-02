@@ -35,6 +35,7 @@
             echo "You are Failed";
         }
         echo "with Average of $avg";
-?>
+        
+    ?>
 </body>
 </html>
