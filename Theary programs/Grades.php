@@ -18,8 +18,23 @@
         $Sci = $_POST['M_s'];
         $Lang = $_POST['M_l'];
 
-        if
-
-    ?>
+        $avg = (($Maths + $Sci + $Lang)/3);
+        
+        if($avg>50){
+            // echo " You are Passed";
+            if($avg <= 60){
+                echo " You got D Grade";
+            } elseif($avg <=70){
+                echo " You got C Grade";
+            }elseif($avg <=85){
+                echo " You got B Grade";
+            }else{
+                echo " You got A Grade";
+            }
+        }else{
+            echo "You are Failed";
+        }
+        echo "with Average of $avg";
+?>
 </body>
 </html>
