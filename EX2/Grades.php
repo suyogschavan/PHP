@@ -14,9 +14,9 @@
     </form>
     <?php 
     
-        $Maths = $_POST['M_m'];
-        $Sci = $_POST['M_s'];
-        $Lang = $_POST['M_l'];
+        $Maths = $_POST["M_m"];
+        $Sci = $_POST["M_s"];
+        $Lang = $_POST["M_l"];
 
         $avg = (($Maths + $Sci + $Lang)/3);
         
@@ -34,7 +34,6 @@
         }else{
             echo "You are Failed";
         }
-        echo "with Average of $avg";
         
     ?>
 </body>
