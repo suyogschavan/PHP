@@ -1,6 +1,6 @@
 
 <?php    
-$emp = array  
+$record = array  
   (  
   array(71,"Suyog",1901480181),  
   array(72,"Ritesh",1901480182),  
@@ -9,7 +9,7 @@ $emp = array
   
 for ($row = 0; $row < 3; $row++) {  
   for ($col = 0; $col < 3; $col++) {  
-    echo $emp[$row][$col]."  ";  
+    echo $record[$row][$col]."  ";  
   }  
   echo "<br/>";  
 }  
