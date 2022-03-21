@@ -16,7 +16,7 @@
     if(isset($_POST['submit'])){
         
     // str1_word_count()
-    echo "<br><br>#1. str_word_count() -------- Counts the number of words in string <br>";
+    echo "<br><br><b>#1. str_word_count() -------- Counts the number of words in string <br>";
     echo "Words in string : ".str_word_count($str1);
     
     // strtoupper()
@@ -45,11 +45,11 @@
 
     // str_repeat()    
     echo "<br><br>#8. str_repeat() -------- It repeats a string a specified number of times<br>";
-    echo "Repeated String : ".str_repeat("$str1",3);
+    echo "Repeated String : ".str_repeat("$str1",2);
     
     // strpos()
     echo "<br><br>#9. strpos() -------- It finds the position of the first occurance of a string inside another string<br>";
-    echo "Position of String Suyog : ".strpos($str1, "Suyog");
+    echo "Position of String Suyog : ".strpos($str1, "Suyog")."</b>";
 
 
 }

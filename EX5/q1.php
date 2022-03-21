@@ -1,6 +1,5 @@
 <?php 
 
-
 $str1 = " Hello my name is Suyog";
     $wordcount = 0;
 
@@ -10,6 +9,6 @@ $str1 = " Hello my name is Suyog";
          }
     }
 
-    echo "The number of words in string ".$wordcount;
+    echo "The number of words in string :  ".$wordcount;
 
 ?>
