@@ -1,7 +1,7 @@
 <?php
 
 $image = imagecreate(500, 300);
-$background_color = imagecolorallocate($image, 225, 225, 225);
+$background_color = imagecolorallocate($image, 225, 225, 225);  
 $text_color = imagecolorallocate($image, 0, 0, 0);
 
 imagestring($image, 5, 180, 100, "Suyog Chavan", $text_color);
