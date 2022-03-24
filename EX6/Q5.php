@@ -1,3 +1,6 @@
+
+<!-- Write a program in php by using function to calculate the area of rectangle -->
+
 <html>
 <body>
 <form method = "POST">
@@ -5,7 +8,7 @@
     Enter the Width  : <input type="number" name="w"><br><br>
     <input type="submit" name="submit">
 
-<form>
+</form>
 <?php 
     
     function area($h, $w){
