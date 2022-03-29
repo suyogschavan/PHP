@@ -30,8 +30,6 @@
             return $a-$b;
         }
 
-
-
     if(isset($_POST['submit'])){
         $num1 = $_POST['num1'];
         $num2 = $_POST['num2'];

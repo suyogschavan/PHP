@@ -19,7 +19,7 @@
         $height = $_POST['h'];
         $width = $_POST['w'];
 
-        echo "<br><br>Area of Rectangle : ".area($height, $width);
+        echo "<br>Area of Rectangle : ".area($height, $width)."sq.cm";
 
     }
     ?>
