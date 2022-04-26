@@ -14,7 +14,7 @@
     <div class="container">
       <div class="row">
         <h1 id="cv_heading">
-          Generate Dynamic Resume
+          Generate Dynamic CV
         </h1>
         <div class="col-md-6 bg-primary shadow p-4">
           <div class="mb-3">

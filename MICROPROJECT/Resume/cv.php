@@ -124,7 +124,7 @@ $html = "
 
 	include "vendor/autoload.php";
 
-	$mpdf = new \Mpdf\Mpdf(['margin_top'=>2, 'margin_right'=>2, 'margin_bottom'=>2, 'margin_left'=>2]);
+	$mpdf = new \Mpdf\Mpdf(['margin_top'=>1, 'margin_right'=>1, 'margin_bottom'=>1, 'margin_left'=>1]);
 	$mpdf-> SetDisplayMode('fullpage');
 	// load style.css file
 	$style = file_get_contents('style.css');
