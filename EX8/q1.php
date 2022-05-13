@@ -7,7 +7,7 @@ class addANDsub{
         $sub = $a - $b;
 
         echo "Addition of ".$a. " and ".$b. " : ".$sum;
-        echo "\nSubstraction of ".$a. " and ".$b. " : ".$sub;
+        echo "<br>Substraction of ".$a. " and ".$b. " : ".$sub;
     }
 }
 $m=50;
