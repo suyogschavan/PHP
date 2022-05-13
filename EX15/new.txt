@@ -1,0 +1,54 @@
+// $v = "SELECT * FROM `students`";
+// $result = $mysqli->query($v);
+
+
+// ?>
+
+// <html>
+//     <body>
+//         <form action="" method="POST">
+//             What do you want to do? 
+//             <select name="operation">
+//                 <option value="view">View data</option>
+//                 <option value="Insert">Insert data</option>
+//                 <option value="delete">Delete data</option>
+//             </select>
+//         <input type="submit" name ="submit" value="submit">
+        
+        
+//         <?php 
+        
+//         if(isset($_POST['submit'])){
+//             $operation = $_POST['operation'];
+//             switch ($operation) {
+//                 case 'view':
+//                     '<table border="0" cellspacing="2" cellpadding="2"> 
+//       <tr> 
+//           <td> <font face="Arial">Value1</font> </td> 
+//           <td> <font face="Arial">Value2</font> </td> 
+//           <td> <font face="Arial">Value3</font> </td> 
+//           <td> <font face="Arial">Value4</font> </td> 
+//           <td> <font face="Arial">Value5</font> </td> 
+//       </tr>';
+                    
+                    
+//                     break;
+                    
+//                     case 'Insert':
+//                         echo "view";
+//                         break;
+                        
+//                         case 'delete':
+//                             echo "view";
+//                             break;
+//                             default:
+//                             echo "Insert";
+//                             break;
+//                         }
+//                     }
+                    
+//                     ?>
+
+// </form>
+// </body>
+// </html>
